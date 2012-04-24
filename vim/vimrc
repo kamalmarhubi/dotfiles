@@ -9,9 +9,20 @@ filetype off                   " required for vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+" make vundle use git protocol
+let g:vundle_default_git_proto = 'git'
+
 " let Vundle manage Vundle
 " required! 
 Bundle 'gmarik/vundle'
+
+" enable syntax highlighting
+syntax on
+
+" bundles
+Bundle 'altercation/vim-colors-solarized'
+set background=dark
+colorscheme solarized
 
 " detect filetypes -- required after bundles for vundle
 filetype plugin indent on
