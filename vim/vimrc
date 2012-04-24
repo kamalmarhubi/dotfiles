@@ -1,0 +1,17 @@
+" kmrhb vimrc
+
+set nocompatible               " be iMproved 
+
+" initialise vundle
+filetype on                    " workaround for issue with default OS X vim version
+filetype off                   " required for vundle
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" detect filetypes -- required after bundles for vundle
+filetype plugin indent on
