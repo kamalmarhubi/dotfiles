@@ -18,9 +18,12 @@ Bundle 'gmarik/vundle'
 
 " enable syntax highlighting
 syntax on
+set cursorline
 
 " bundles
 Bundle 'altercation/vim-colors-solarized'
+
+" set colorscheme
 set background=dark
 colorscheme solarized
 
