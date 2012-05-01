@@ -20,8 +20,12 @@ Bundle 'gmarik/vundle'
 syntax on
 set cursorline
 
+" configure vim-slime to use tmux
+let g:slime_target = "tmux"
+
 " bundles
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'jpalardy/vim-slime'
 
 " set colorscheme
 set background=dark
