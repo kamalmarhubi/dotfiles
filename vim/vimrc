@@ -20,6 +20,9 @@ Bundle 'gmarik/vundle'
 syntax on
 set cursorline
 
+" allow backspace to delete past start of insert
+set backspace=indent,eol,start"
+
 " configure vim-slime to use tmux
 let g:slime_target = "tmux"
 
