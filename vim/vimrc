@@ -31,6 +31,11 @@ Bundle 'jpalardy/vim-slime'
 set background=dark
 colorscheme solarized
 
+" toggle pastemode
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
 
 """"""""""""""""""""""""""""""
 " => Statusline -- copied from julia's for now
