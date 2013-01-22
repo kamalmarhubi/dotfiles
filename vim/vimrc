@@ -32,6 +32,12 @@ Bundle 'vim-coffee-script'
 Bundle 'SirVer/ultisnips'
 Bundle 'ervandew/supertab'
 
+" indenting
+" default to tab only indenting
+set noexpandtab
+set shiftwidth=2
+set tabstop=2
+
 " set colorscheme
 set background=dark
 colorscheme solarized
