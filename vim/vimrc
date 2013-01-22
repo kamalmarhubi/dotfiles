@@ -31,6 +31,7 @@ Bundle 'jpalardy/vim-slime'
 Bundle 'vim-coffee-script'
 Bundle 'SirVer/ultisnips'
 Bundle 'ervandew/supertab'
+Bundle 'michaeljsmith/vim-indent-object'
 
 " indenting
 " default to tab only indenting
