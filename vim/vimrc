@@ -16,6 +16,9 @@ let g:vundle_default_git_proto = 'git'
 " required! 
 Bundle 'gmarik/vundle'
 
+" disable cursor blink in gui
+set guicursor+=a:blinkon0
+
 " setup highlighting
 set cursorline
 
