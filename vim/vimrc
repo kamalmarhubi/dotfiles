@@ -16,8 +16,7 @@ let g:vundle_default_git_proto = 'git'
 " required! 
 Bundle 'gmarik/vundle'
 
-" enable syntax highlighting
-syntax on
+" setup highlighting
 set cursorline
 
 " allow backspace to delete past start of insert
@@ -29,6 +28,7 @@ let g:slime_target = "tmux"
 " bundles
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'jpalardy/vim-slime'
+Bundle 'vim-coffee-script'
 
 " set colorscheme
 set background=dark
@@ -67,3 +67,4 @@ endfunction
 
 " detect filetypes -- required after bundles for vundle
 filetype plugin indent on
+syntax on
