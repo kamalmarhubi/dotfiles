@@ -33,6 +33,7 @@ Bundle 'SirVer/ultisnips'
 Bundle 'ervandew/supertab'
 Bundle 'michaeljsmith/vim-indent-object'
 Bundle 'Raimondi/delimitMate'
+Bundle 'kien/ctrlp.vim'
 
 " indenting
 " default to tab only indenting
