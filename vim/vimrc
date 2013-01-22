@@ -29,6 +29,7 @@ let g:slime_target = "tmux"
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'jpalardy/vim-slime'
 Bundle 'vim-coffee-script'
+Bundle 'SirVer/ultisnips'
 
 " set colorscheme
 set background=dark
@@ -39,6 +40,13 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
 
+" UltiSnips
+" configure trigger to be tab / s-tab
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+let g:UltiSnipsEditSplit="horizontal"
 
 """"""""""""""""""""""""""""""
 " => Statusline -- copied from julia's for now
