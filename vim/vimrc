@@ -39,6 +39,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/syntastic'
 
 " indenting
 " default to tab only indenting
