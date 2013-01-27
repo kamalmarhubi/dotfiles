@@ -38,6 +38,7 @@ Bundle 'michaeljsmith/vim-indent-object'
 Bundle 'Raimondi/delimitMate'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-surround'
 
 " indenting
 " default to tab only indenting
