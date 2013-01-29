@@ -41,6 +41,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'Lokaltog/vim-powerline'
 
 " indenting
 " default to tab only indenting
@@ -65,30 +66,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 let g:UltiSnipsEditSplit="horizontal"
 
-""""""""""""""""""""""""""""""
-" => Statusline -- copied from julia's for now
-""""""""""""""""""""""""""""""
-" Always hide the statusline
 set laststatus=2
-
-" Format the statusline
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c
-
-
-function! CurDir()
-    let curdir = substitute(getcwd(), $HOME, "~", "g")
-    return curdir
-endfunction
-
-function! HasPaste()
-  return 'PASTE MODE  '
-    if &paste
-    else
-        return ''
-    endif
-endfunction
-
-
 
 " detect filetypes -- required after bundles for vundle
 filetype plugin indent on
