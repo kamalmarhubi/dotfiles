@@ -3,3 +3,5 @@
   email = kamal@marhubi.com
 [core]
   editor = vim
+[color]
+	ui = true
