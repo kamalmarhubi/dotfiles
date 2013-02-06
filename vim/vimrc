@@ -43,6 +43,7 @@ Bundle 'tpope/vim-unimpaired'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'airblade/vim-rooter'
 
 " indenting
 " default to tab only indenting
