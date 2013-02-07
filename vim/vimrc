@@ -45,6 +45,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'airblade/vim-rooter'
 Bundle 'myusuf3/numbers.vim'
+Bundle 'skwp/vim-easymotion'
 
 " indenting
 " default to tab only indenting
@@ -62,6 +63,9 @@ let g:Powerline_symbols="fancy"
 if has("gui_macvim")
 	set guifont="Menlo\ for\ Powerline:h12"
 endif
+
+" easymotion setup
+let g:EasyMotion_keys = 'fjdkslwovneiwo'
 
 " toggle pastemode
 nnoremap <F2> :set invpaste paste?<CR>
