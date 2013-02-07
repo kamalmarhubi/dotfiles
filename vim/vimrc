@@ -56,6 +56,13 @@ set tabstop=2
 set background=dark
 colorscheme solarized
 
+" powerline setup
+let g:Powerline_colorscheme="solarized256"
+let g:Powerline_symbols="fancy"
+if has("gui_macvim")
+	set guifont="Menlo\ for\ Powerline:h12"
+endif
+
 " toggle pastemode
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
