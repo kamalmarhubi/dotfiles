@@ -43,7 +43,6 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'airblade/vim-rooter'
 Bundle 'myusuf3/numbers.vim'
 Bundle 'skwp/vim-easymotion'
-Bundle 'mileszs/ack.vim'
 
 " basic settings
 set hidden
