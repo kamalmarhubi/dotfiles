@@ -22,9 +22,6 @@ set guicursor+=a:blinkon0
 " setup highlighting
 set cursorline
 
-" allow backspace to delete past start of insert
-set backspace=indent,eol,start"
-
 " configure vim-slime to use tmux
 let g:slime_target = "tmux"
 
@@ -46,6 +43,11 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'airblade/vim-rooter'
 Bundle 'myusuf3/numbers.vim'
 Bundle 'skwp/vim-easymotion'
+Bundle 'mileszs/ack.vim'
+
+" basic settings
+set hidden
+set backspace=indent,eol,start
 
 " indenting
 " default to tab only indenting
