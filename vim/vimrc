@@ -45,6 +45,9 @@ Bundle 'airblade/vim-rooter'
 Bundle 'myusuf3/numbers.vim'
 Bundle 'skwp/vim-easymotion'
 Bundle 'mileszs/ack.vim'
+Bundle 'godlygeek/tabular'
+Bundle 'tpope/vim-markdown'
+Bundle 'nelstrom/vim-markdown-folding'
 
 " basic settings
 set hidden
