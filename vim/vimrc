@@ -48,16 +48,11 @@ Bundle 'mileszs/ack.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-markdown'
 Bundle 'nelstrom/vim-markdown-folding'
+Bundle 'tpope/vim-sleuth'
 
 " basic settings
 set hidden
 set backspace=indent,eol,start
-
-" indenting
-" default to tab only indenting
-set noexpandtab
-set shiftwidth=2
-set tabstop=2
 
 " set colorscheme
 set background=dark
