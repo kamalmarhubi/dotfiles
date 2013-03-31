@@ -49,6 +49,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-markdown'
 Bundle 'nelstrom/vim-markdown-folding'
 Bundle 'tpope/vim-sleuth'
+Bundle 'mattn/zencoding-vim'
 
 " basic settings
 set hidden
