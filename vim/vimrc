@@ -50,6 +50,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'nelstrom/vim-markdown-folding'
 Bundle 'tpope/vim-sleuth'
 Bundle 'mattn/zencoding-vim'
+Bundle 'sjl/gundo.vim'
 
 " basic settings
 set hidden
@@ -81,6 +82,9 @@ let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 let g:UltiSnipsEditSplit="horizontal"
+
+" gundo mapping
+nnoremap <F5> :GundoToggle<CR>
 
 set laststatus=2
 
