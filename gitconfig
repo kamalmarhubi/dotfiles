@@ -1,8 +1,8 @@
 [user]
-  name = Kamal Marhubi
-  email = kamal@marhubi.com
+	name = Kamal Marhubi
+	email = kamal@marhubi.com
 [core]
-  editor = vim
+	editor = vim
 [color]
 	ui = true
 [alias]
