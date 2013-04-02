@@ -51,6 +51,7 @@ Bundle 'nelstrom/vim-markdown-folding'
 Bundle 'tpope/vim-sleuth'
 Bundle 'mattn/zencoding-vim'
 Bundle 'sjl/gundo.vim'
+Bundle 'saltstack/salt-vim'
 
 " basic settings
 set hidden
