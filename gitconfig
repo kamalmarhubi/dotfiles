@@ -7,3 +7,6 @@
 	ui = true
 [alias]
 	root = !pwd
+[github]
+	user = kmrhb
+	password = !security find-generic-password -wgs github.password | tr -d '\n'
